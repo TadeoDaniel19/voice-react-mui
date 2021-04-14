@@ -115,7 +115,7 @@ function App() {
                 height: 60,
             }}/>
         </IconButton>
-        <SimpleModal handleClose={handleClose} handleOpen={handleOpen} open={open}/>
+        <SimpleModal handleClose={handleClose} open={open}/>
       </div>
       <Grid>
       <Footer />

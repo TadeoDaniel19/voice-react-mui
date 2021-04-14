@@ -31,7 +31,6 @@ const useStyles = makeStyles((theme) => ({
 export default function SimpleModal(props) {
   const {
     open,
-    handleOpen,
     handleClose,
   } =  props;
   const classes = useStyles();
