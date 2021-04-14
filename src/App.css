@@ -1,38 +1,54 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eeeeee;
+  color: #242225;
+  font-family: "Acme", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#links {
+  margin-bottom: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: rgb(25, 122, 202);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:hover {
+  text-decoration: underline;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#transcript {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: rgb(25, 122, 202);
+  color: #eeeeee;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+button:hover {
+  background-color: rgb(22, 101, 167);
+  cursor: pointer;
 }
