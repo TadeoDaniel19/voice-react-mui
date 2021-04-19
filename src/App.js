@@ -37,21 +37,21 @@ function App() {
       },
     },
     {
-      command: "Busca hibobi *",
+      command: "Busca opción 3 *",
       callback: (answer) => {
-        window.open(`https://www.hibobi.com/${answer}`);
+        window.open(`https://www.hibobi.com/categories/search?title=${answer}`);
 
       },
     },
     {
       command: "Busca vertiche *",
       callback: (answer) => {
-        window.open(`https://vertiche.mx/${answer}`);
+        window.open(`https://vertiche.mx/?s=${answer}&page=buscar&post_type=product`);
 
       },
     },
     {
-      command: "Busca c a *",
+      command: "Busca opción 5 *",
       callback: (answer) => {
         window.open(`https://www.cyamoda.com/${answer}`);
 
@@ -60,9 +60,6 @@ function App() {
     {
       command: "Ayuda del sitio",
       callback: () => {
-/*         alert(
-          '1.- Para mostar todas las páginas que tengo memorizadas di: *Busca multiple (seguido de la palabra clave)*, 2.- Para abrir una pagina en especifico di: *Abre*, 3.- Para cerrar la app di: *salir del sitio*'
-        ) */
         handleOpen()
       },
     },
